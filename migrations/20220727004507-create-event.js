@@ -29,5 +29,3 @@ module.exports = {
     await queryInterface.dropTable("Events");
   },
 };
-
-sequelize model:generate --name Event --attributes "event_id:integer, name:string, date:date, start_time:date, end_time:date"
